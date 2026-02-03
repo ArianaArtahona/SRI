@@ -2,10 +2,12 @@
 
 ## Indice
 
-1. [Introducción](#introducción)
-2. [Configuracion de la maquina](#1-configuración-de-la-maquina-virtual)
+1. [Introducción](#1-introducción)
+2. [Configuracion de la maquina virtual](#2-configuración-de-la-maquina-virtual)
+3. [Instalación y configuracion de Icecast2](#3-instalación-y-configuracion-de-icecast2)
+4. [Instalacion y configuracion de Mixxx](#4-instalación-y-configuración-de-mixxx)
 
-## Introducción
+## 1. Introducción
 La **radio online** es la transmisión de audio a través de Internet, permitiendo que oyentes en cualquier lugar del mundo puedan sintonizar un programa en tiempo real. A diferencia de la radio tradicional, que utiliza ondas de radiofrecuencia, la radio online depende de un **servidor de streaming** y un **cliente emisor**.
 
 ---
@@ -25,16 +27,16 @@ La **radio online** es la transmisión de audio a través de Internet, permitien
 
 ---
 
-## 1. Configuración de la maquina virtual
+## 2. Configuración de la maquina virtual
 En este caso utilice adaptador puente para más adelante usar la máquina anfitrión como oyente
 
 Por lo que con `ip a` observe la ip y la guarde para despues
 
 ---
 
-## 2. Instalación y configuracion de Icecast2:
+## 3. Instalación y configuracion de Icecast2
 
-###  2.1 Instalar Icecast2
+###  3.1 Instalar Icecast2
 ```bash
 sudo apt update 
 sudo apt install icecast2 -y
@@ -45,7 +47,7 @@ Durante la instalación:
 
 -Usar la misma contraseña para todas las opciones.
 
-### 2.2 Configuración básica
+### 3.2 Configuración básica
 
 Editar archivo de configuración
 
@@ -70,9 +72,9 @@ http://localhost:8000 #por defecto icecast escucha este puerto
 ---
 
 
-## 3. Instalación y configuración de Mixxx
+## 4. Instalación y configuración de Mixxx
 
-### 3.1 Instalar Mixxx
+### 4.1 Instalar Mixxx
 
 ```bash
 sudo add-apt-repository ppa:mixxx/mixxx
@@ -80,7 +82,7 @@ sudo apt update
 sudo apt install mixxx
 ```
 
-### 3.2 Configurar emisión en Mixxx
+### 4.2 Configurar emisión en Mixxx
 
 Con mixxx abierto:
 
