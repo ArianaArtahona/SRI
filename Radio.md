@@ -3,7 +3,7 @@
 ## Indice
 
 1. [Introducción](#introducción)
-2. [Configuracion de la maquina](#1-configuracion-de-la-maquina-virtual)
+2. [Configuracion de la maquina](#1-configuración-de-la-maquina-virtual)
 
 ## Introducción
 La **radio online** es la transmisión de audio a través de Internet, permitiendo que oyentes en cualquier lugar del mundo puedan sintonizar un programa en tiempo real. A diferencia de la radio tradicional, que utiliza ondas de radiofrecuencia, la radio online depende de un **servidor de streaming** y un **cliente emisor**.
