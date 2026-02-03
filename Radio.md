@@ -106,6 +106,8 @@ Guardar y luego de poner en vivo un MP3, ir al navegador, en este caso el del an
 http://192.168.1.131:8000/ari
 ```
 
+Adjunto imagen de como se ve el funcionamiento: [foto](radio.png)
+
 >Resultado esperado:
 > - Icecast2 funcionando correctamente
 > - Mixxx conectado al servidor
