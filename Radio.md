@@ -106,6 +106,10 @@ Guardar y luego de poner en vivo un MP3, ir al navegador, en este caso el del an
 http://192.168.1.131:8000/ari
 ```
 
+>Resultado esperado:
+> - Icecast2 funcionando correctamente
+> - Mixxx conectado al servidor
+> - Se puede oir al unisono en la maquina anfitrión
 
 
 
