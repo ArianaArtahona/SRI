@@ -1,17 +1,24 @@
 # Práctica de Video Streaming
 
-## Introducción
+## Indice
+1. [Introducción](#1-introducción)
+2. [Instalacion y configuración de FFmpeg](#2-instalacion-y-configuración-de-ffmpeg)
+3. [Comprobar los datos](#3-comprobar-los-datos)
+4. [Cambio de contenedor](#4-cambio-de-contenedor)
+5. [Cambios de codecs](#5-cambios-de-codecs)
+
+## 1. Introducción
 
 En esta práctica se va trabajar con archivos de vídeo para explorar de manera práctica cómo afectan los contenedores, los códecs y el bitrate al tamaño de los archivos, a la calidad de imagen y al uso de recursos. A través de distintos ejercicios se analizará y comparará los resultados.
 
-## 1. Instalacion y configuración de FFmpeg
+## 2. Instalacion y configuración de FFmpeg
 
-### 1.1 Instalación
+### 2.1 Instalación
 Se instala con : `sudo apt install ffmpeg -y`
 
 ---
 
-## 2. Comprobar los datos
+## 3. Comprobar los datos
 
 ```bash
 ffprobe -v error -show_streams video.mp4
@@ -29,7 +36,7 @@ Lo mas importante del resultado:
 
 ---
 
-## 3. Cambio de contenedor
+## 4. Cambio de contenedor
 
 ```bash
 ffmpeg -i video.mp4 -c:v copy -c:a copy video.mkv
@@ -38,7 +45,7 @@ Con este comando se cambia de mp4 a mkv el archivo, haciendo que tenga un cambio
 
 ---
 
-## 4. Cambios de codecs
+## 5. Cambios de codecs
 
 Crear el archivo H.264
 
