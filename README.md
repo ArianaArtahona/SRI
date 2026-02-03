@@ -3,4 +3,4 @@
 **Ariana Dayhann Artahona Fernández**
 
 1. [Radio](Radio.md)
-2. Streaming
+2. [Video](Video.md)
