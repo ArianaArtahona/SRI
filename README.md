@@ -4,3 +4,4 @@
 
 1. [Radio](Radio.md)
 2. [Video](Video.md)
+3. [Teoria de Streaming](teoria.md)
