@@ -11,6 +11,7 @@
 7. [Códecs](#7-códecs)
 8. [Ejercicios de audio](#8-ejercicios-de-audio)
 9. [Ejercicios de Vídeo](#9-ejercicios-de-vídeo)
+10. [Anexo](#10-anexo)
 
 ---
 
@@ -417,21 +418,48 @@ simultáneamente sin ampliar la línea de fibra?
 - Streaming adaptativo
 ```
 
+---
 
+## 10. Anexo
 
+**Conversiones básicas**
+Bits y Bytes
+1 byte = 8 bits  
+bits = bytes * 8  
+bytes = bits / 8  
 
+**Unidades de tamaño (almacenamiento)**
+1 KB = 1000 bytes  
+1 MB = 1000 KB  
+1 GB = 1000 MB  
+1 TB = 1000 GB  
 
+bytes a KB = bytes / 1000  
+KB a MB = KB / 1000  
+MB a GB = MB / 1000  
+GB a TB = GB / 1000  
 
+**Unidades de velocidad (red)**
+1 kbps = 1000 bps  
+1 Mbps = 1000 kbps  
+1 Gbps = 1000 Mbps  
 
+bps a kbps = bps / 1000  
+kbps a Mbps = kbps / 1000  
+Mbps a Gbps = Mbps / 1000  
 
+**Tiempo**
+segundos = minutos * 60  
+minutos = segundos / 60  
 
+**Conversión tamaño desde bits**
+bytes = bits / 8  
+KB = bytes / 1000  
+MB = KB / 1000  
+GB = MB / 1000  
 
-
-
-
-
-
-
-
-
-
+**Conversión tamaño hacia bits**
+bits = bytes * 8  
+bits = KB * 1000 * 8  
+bits = MB * 1000 * 1000 * 8  
+bits = GB * 1000 * 1000 * 1000 * 8
