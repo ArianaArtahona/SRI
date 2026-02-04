@@ -373,6 +373,26 @@ pasar de segundos a minutos: 537/60= 9 minutos
 
 **Ejercicio 2**
 
+Quieres retransmitir la graduación por YouTube. Tienes una conexión de 
+fibra con 20 Mbps de subida (upload). Quieres emitir en 1080p usando el códec 
+H.264.
+
+
+- A. Si configuras un bitrate de 6 Mbps, ¿qué porcentaje de tu línea de subida estás 
+consumiendo?
+
+
+```bash
+
+
+```
+
+
+- B. Si de repente otros 3 alumnos empiezan a emitir sus propias directos a la 
+misma calidad (6 Mbps cada uno), ¿qué pasará con la emisión? Justifica la 
+respuesta técnica (buffering, saturación de red, latencia).
+- C. ¿Qué solución técnica aplicarías para que los 4 alumnos puedan emitir 
+simultáneamente sin ampliar la línea de fibra?
 
 
 
