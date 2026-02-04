@@ -252,7 +252,7 @@ Convertir a bytes: 423360000/8=52920000 bytes
 
 Pasar a MB:  52920000/1000000=52.9MB
 
-Resultado: ~53 MB
+Resultado: 53 MB
 ```
 ---
 
@@ -303,6 +303,7 @@ Resultado: 52 oyentes antes de saturar la red
 ```
 
 ---
+
 
 ## 9. Ejercicios de Vídeo
 
