@@ -383,7 +383,10 @@ consumiendo?
 
 
 ```bash
+Subida: 20 Mbps
+Stream: 6 Mbps
 
+(6/20) x 100 = 30%
 
 ```
 
