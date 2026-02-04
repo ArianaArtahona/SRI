@@ -409,6 +409,14 @@ Supera 20 Mbps → saturación:
 - C. ¿Qué solución técnica aplicarías para que los 4 alumnos puedan emitir 
 simultáneamente sin ampliar la línea de fibra?
 
+```bash
+
+- Bajar bitrate (ej. 4 Mbps)
+- Usar servidor intermedio (RTMP → YouTube)
+- QoS en router
+- Streaming adaptativo
+```
+
 
 
 
