@@ -394,6 +394,18 @@ Stream: 6 Mbps
 - B. Si de repente otros 3 alumnos empiezan a emitir sus propias directos a la 
 misma calidad (6 Mbps cada uno), ¿qué pasará con la emisión? Justifica la 
 respuesta técnica (buffering, saturación de red, latencia).
+
+```bash
+
+4 personas x 6 Mbps = 24Mbps
+
+Supera 20 Mbps → saturación:
+- Buffering
+- Cortes
+- Aumento de latencia
+
+```
+
 - C. ¿Qué solución técnica aplicarías para que los 4 alumnos puedan emitir 
 simultáneamente sin ampliar la línea de fibra?
 
